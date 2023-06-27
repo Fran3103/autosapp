@@ -6,7 +6,7 @@ const Card = ({autos}) => {
 
     <div className='contenedorCard'>
 
-        <img src={autos.imagen} className='img' /> 
+        <img src={autos.imagen} className='img' alt={autos.titulo} /> 
         <div className='cardTexto'>
             <h3>{autos.titulo}</h3>
             <p>
