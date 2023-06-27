@@ -1,11 +1,12 @@
 import React from 'react'
 
 const Card = ({autos}) => {
+  console.log(autos.imagen)
   return (
 
     <div className='contenedorCard'>
 
-        <img src={autos.imagen}/> 
+        <img src={autos.imagen} className='img' /> 
         <div className='cardTexto'>
             <h3>{autos.titulo}</h3>
             <p>

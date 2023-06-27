@@ -3,7 +3,7 @@
       "id": "chevrolet-cobalt",
       "titulo": "Chevrolet Cobalt",
       "descripcion": "El Chevrolet Cobalt es un sedán compacto con un diseño elegante y moderno. Ofrece un amplio espacio interior y comodidad para los pasajeros. Está equipado con características tecnológicas y de seguridad avanzadas.",
-      "imagen":"img/chevrolet-cobalt.png",
+      "imagen":"https://github.com/Fran3103/autosapp/blob/master/src/img/chevrolet-cobalt.png?raw=true",
       "categoria": {
         "nombre": "Chevrolet",
         "id": "chevrolet"
@@ -14,7 +14,7 @@
       "id": "chevrolet-onix",
       "titulo": "Chevrolet Onix",
       "descripcion": "El Chevrolet Onix es un automóvil subcompacto con un diseño aerodinámico y deportivo. Ofrece un rendimiento eficiente en combustible y cuenta con tecnología de conectividad y entretenimiento de última generación.",
-      "imagen": "img/chevrolet-onix.png",
+      "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/chevrolet-onix.png?raw=true",
       "categoria": {
         "nombre": "Chevrolet",
         "id": "chevrolet"
@@ -25,7 +25,7 @@
       "id": "chevrolet-spin",
       "titulo": "Chevrolet Spin",
       "descripcion": "El Chevrolet Spin es un monovolumen versátil y espacioso ideal para familias. Ofrece múltiples configuraciones de asientos y una gran capacidad de carga. Está equipado con tecnología y sistemas de seguridad avanzados.",
-      "imagen": "img/chevrolet-spin.png",
+      "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/chevrolet-spin.png?raw=true",
       "categoria": {
         "nombre": "Chevrolet",
         "id": "chevrolet"
@@ -36,7 +36,7 @@
       "id": "fiat-argo",
       "titulo": "Fiat Argo",
       "descripcion": "El Fiat Argo es un hatchback compacto con un diseño moderno y deportivo. Ofrece un equilibrio entre rendimiento y eficiencia, así como características de seguridad y confort destacadas. Es ideal para la conducción en entornos urbanos.",
-      "imagen": "img/fiat-argo.png",
+      "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/fiat-argo.png?raw=true",
       "categoria": {
         "nombre": "Fiat",
         "id": "fiat"
@@ -47,7 +47,7 @@
       "id": "fiat-cronos",
       "titulo": "Fiat Cronos",
       "descripcion": "El Fiat Cronos es un sedán elegante y sofisticado con un diseño aerodinámico. Ofrece un amplio espacio interior, tecnología de vanguardia y un rendimiento eficiente en combustible. Es una opción ideal para aquellos que buscan confort y estilo.",
-      "imagen": "img/fiat-cronos.png",
+      "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/fiat-cronos.png?raw=true",
       "categoria": {
         "nombre": "Fiat",
         "id": "fiat"
@@ -58,7 +58,7 @@
       "id": "fiat-strada",
       "titulo": "Fiat Strada",
       "descripcion": "La Fiat Strada es una pick-up compacta versátil y robusta. Combina un diseño moderno con funcionalidad y capacidad de carga. Está equipada con tecnología y características de seguridad avanzadas, brindando un excelente rendimiento en cualquier terreno.",
-      "imagen": "/img/fiat-strada.png",
+      "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/fiat-strada.png?raw=true",
       "categoria": {
         "nombre": "Fiat",
         "id": "fiat"
@@ -69,7 +69,7 @@
       "id": "fiat-toro",
       "titulo": "Fiat Toro",
       "descripcion": "La Fiat Toro es una pick-up de tamaño mediano con un diseño robusto y deportivo. Combina la versatilidad de una pick-up con el confort de un SUV. Ofrece un amplio espacio interior, tecnología avanzada y un rendimiento potente tanto en carretera como fuera de ella.",
-      "imagen": "/img/fiat-toro.png",
+      "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/fiat-toro.png?raw=true",
       "categoria": {
         "nombre": "Fiat",
         "id": "fiat"
@@ -80,7 +80,7 @@
       "id": "fiat-uno",
       "titulo": "Fiat Uno",
       "descripcion": "El Fiat Uno es un automóvil compacto y ágil, ideal para la conducción en entornos urbanos. Ofrece un diseño moderno, eficiencia en el consumo de combustible y un interior espacioso. Es una opción económica y práctica para el día a día.",
-      "imagen": "./img/fiat-uno.png",
+      "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/fiat-uno.png?raw=true",
       "categoria": {
         "nombre": "Fiat",
         "id": "fiat"
@@ -91,7 +91,7 @@
       "id": "ford-eco",
       "titulo": "Ford Ecosport",
       "descripcion": "La Ford Ecosport es una SUV compacta con un diseño audaz y aventurero. Ofrece un manejo ágil, comodidad en el interior y tecnología avanzada para una conducción segura y conectada. Es perfecta tanto para la ciudad como para explorar nuevos caminos.",
-      "imagen": "img/ford-ecosport.png",
+      "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/ford-ecosport.png?raw=true",
       "categoria": {
         "nombre": "Ford",
         "id": "ford"
@@ -102,7 +102,7 @@
       "id": "ford-fiesta",
       "titulo": "Ford Fiesta",
       "descripcion": "El Ford Fiesta es un hatchback versátil y divertido de conducir. Ofrece un diseño elegante, un interior cómodo y una amplia gama de características tecnológicas. Es ágil en la ciudad y eficiente en carretera, brindando una experiencia de conducción emocionante.",
-      "imagen": "img/ford-fiesta.png",
+      "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/ford-fiesta.png?raw=true",
       "categoria": {
         "nombre": "Ford",
         "id": "ford"
@@ -113,7 +113,7 @@
       "id": "ford-focus",
       "titulo": "Ford Focus",
       "descripcion": "El Ford Focus es un sedán compacto con un diseño sofisticado y deportivo. Ofrece un equilibrio entre rendimiento y eficiencia en combustible, así como tecnología y características de seguridad avanzadas. Es una opción ideal para aquellos que buscan estilo y comodidad.",
-      "imagen": "img/ford-focus.png",
+      "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/ford-focus.png?raw=true",
       "categoria": {
         "nombre": "Ford",
         "id": "ford"
@@ -124,7 +124,7 @@
       "id": "ford-ka",
       "titulo": "Ford Ka",
       "descripcion": "El Ford Ka es un automóvil compacto con un diseño moderno y juvenil. Ofrece un manejo ágil y eficiente, junto con características de conectividad y confort. Es perfecto para aquellos que buscan un vehículo práctico y económico.",
-      "imagen": "img/ford-ka.png",
+      "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/ford-ka.png?raw=true",
       "categoria": {
         "nombre": "Ford",
         "id": "ford"
@@ -135,7 +135,7 @@
       "id": "ford-ranger",
       "titulo": "Ford Ranger",
       "descripcion": "La Ford Ranger es una pick-up robusta y poderosa diseñada para el trabajo duro y la aventura. Ofrece una gran capacidad de carga, tracción en las cuatro ruedas y tecnología avanzada para una conducción segura y conectada. Es ideal tanto para uso comercial como recreativo.",
-      "imagen": "img/ford-ranger.png",
+      "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/ford-ranger.png?raw=true",
       "categoria": {
         "nombre": "Ford",
         "id": "ford"
@@ -146,7 +146,7 @@
       "id": "peugeot-208",
       "titulo": "Peugeot 208",
       "descripcion": "El Peugeot 208 es un hatchback elegante y dinámico con un diseño vanguardista. Ofrece un interior sofisticado, tecnología de vanguardia y un rendimiento ágil. Es una combinación perfecta de estilo y eficiencia para aquellos que buscan un automóvil compacto premium.",
-      "imagen": "img/peugeot-208.png",
+      "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/peugeot-208.png?raw=true",
       "categoria": {
         "nombre": "Peugeot",
         "id": "peugeot"
@@ -157,7 +157,7 @@
       "id": "peugeot-308",
       "titulo": "Peugeot 308",
       "descripcion": "El Peugeot 308 es un automóvil compacto con un diseño elegante y sofisticado. Ofrece una experiencia de conducción cómoda y refinada, así como tecnología avanzada y eficiencia en el consumo de combustible. Es una opción ideal para aquellos que valoran el estilo y la calidad.",
-      "imagen": "img/peugeot-308.png",
+      "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/peugeot-308.png?raw=true",
       "categoria": {
         "nombre": "Peugeot",
         "id": "peugeot"
@@ -168,7 +168,7 @@
       "id": "peugeot-408",
       "titulo": "Peugeot 408",
       "descripcion": "El Peugeot 408 es un sedán de lujo con un diseño sofisticado y elegante. Ofrece un interior espacioso y refinado, junto con tecnología avanzada y un rendimiento potente. Es la opción perfecta para aquellos que buscan comodidad y estilo en un automóvil de gama alta.",
-      "imagen": "img/peugeot-408.png",
+      "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/peugeot-408.png?raw=true",
       "categoria": {
         "nombre": "Peugeot",
         "id": "peugeot"
@@ -179,7 +179,7 @@
       "id": "peugeot-2008",
       "titulo": "Peugeot 2008",
       "descripcion": "El Peugeot 2008 es un SUV compacto con un diseño audaz y deportivo. Ofrece un interior versátil y tecnología de vanguardia, junto con un rendimiento potente y eficiencia en el consumo de combustible. Es perfecto para aquellos que buscan estilo y funcionalidad en un vehículo urbano.",
-      "imagen": "img/peugeot-2008.png",
+      "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/peugeot-2008.png?raw=true",
       "categoria": {
         "nombre": "Peugeot",
         "id": "peugeot"
@@ -190,7 +190,7 @@
       "id": "renault-clio",
       "titulo": "Renault Clio",
       "descripcion": "El Renault Clio es un hatchback compacto con un diseño moderno y elegante. Ofrece un interior cómodo y funcional, tecnología avanzada y eficiencia en el consumo de combustible. Es una opción versátil y confiable para la conducción diaria.",
-      "imagen": "img/renault-clio.png",
+      "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/renault-sandero2.png?raw=true",
       "categoria": {
         "nombre": "Renault",
         "id": "renault"
@@ -201,7 +201,7 @@
       "id": "renault-duster",
       "titulo": "Renault Duster",
       "descripcion": "La Renault Duster es una SUV compacta con un diseño robusto y aventurero. Ofrece una gran altura libre al suelo, tracción en las cuatro ruedas y un interior espacioso. Es perfecta para aquellos que buscan un vehículo versátil capaz de enfrentar cualquier terreno.",
-      "imagen": "img/renault-duster.png",
+      "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/renault-sandero.png?raw=true",
       "categoria": {
         "nombre": "Renault",
         "id": "renault"
@@ -212,7 +212,7 @@
       "id": "renault-kwid",
       "titulo": "Renault Kwid",
       "descripcion": "El Renault Kwid es un automóvil compacto con un diseño moderno y juvenil. Ofrece un rendimiento eficiente en combustible, tecnología de conectividad y un interior cómodo. Es una opción económica y práctica para la movilidad urbana.",
-      "imagen": "img/renault-kwid.png",
+      "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/renault-kwid.png?raw=true",
       "categoria": {
         "nombre": "Renault",
         "id": "renault"
@@ -223,7 +223,7 @@
       "id": "renault-logan",
       "titulo": "Renault Logan",
       "descripcion": "El Renault Logan es un sedán espacioso y confortable con un diseño elegante. Ofrece un amplio espacio interior, tecnología avanzada y eficiencia en el consumo de combustible. Es una opción ideal para aquellos que valoran la comodidad y la funcionalidad.",
-      "imagen": "img/renault-logan.png",
+      "imagen": "public/img/renault-logan.png",
       "categoria": {
         "nombre": "Renault",
         "id": "renault"
@@ -234,7 +234,7 @@
         "id" : "volkswagen-fox",
         "titulo" : "Volkswagen Fox",
         "descripcion": "El Volkswagen Fox es un automóvil compacto y versátil que se destaca por su diseño moderno y urbano. Ofrece un excelente rendimiento en la ciudad y cuenta con características innovadoras para brindar comodidad y seguridad.",
-        "imagen" : "img/volkswagen-fox.png",
+        "imagen" : "public/img/volkswagen-fox.png",
         "categoria" :{
             "nombre" : "Volkswagen",
             "id" : "volkswagen"
@@ -247,7 +247,7 @@
         "id" : "volkswagen-gol",
         "titulo" : "Volkswagen Gol",
         "descripcion": "El Volkswagen Gol es un automóvil de tamaño compacto y estilo deportivo. Es conocido por su confiabilidad, eficiencia en el consumo de combustible y amplio espacio interior. Combina un diseño atractivo con tecnología avanzada y un rendimiento sólido en diferentes condiciones de manejo.",
-        "imagen" : "img/volkswagen-gol.png",
+        "imagen" : "public/img/volkswagen-gol.png",
         "categoria" :{
             "nombre" : "Volkswagen",
             "id" : "volkswagen"
@@ -260,7 +260,7 @@
         "id" : "volkswagen-up",
         "titulo" : "Volkswagen Up",
         "descripcion": "El Volkswagen Up es un automóvil pequeño pero espacioso, ideal para la conducción en entornos urbanos. Destaca por su agilidad, economía de combustible y amplia gama de características personalizables. A pesar de su tamaño compacto, ofrece un interior cómodo y seguro.",
-        "imagen" : "img/volkswagen-up.png",
+        "imagen" : "public/img/volkswagen-up.png",
         "categoria" :{
             "nombre" : "Volkswagen",
             "id" : "volkswagen"
@@ -273,7 +273,7 @@
         "id" : "volkswagen-polo",
         "titulo" : "Volkswagen Polo",
         "descripcion": "El Volkswagen Polo es un automóvil hatchback de tamaño mediano con un diseño elegante y deportivo. Es reconocido por su calidad de construcción, manejo ágil y características avanzadas de seguridad y confort. Ofrece un equilibrio entre rendimiento, comodidad y versatilidad.",
-        "imagen" : "img/volkswagen-polo.png",
+        "imagen" : "public/img/volkswagen-polo.png",
         "categoria" :{
             "nombre" : "Volkswagen",
             "id" : "volkswagen"
@@ -286,7 +286,7 @@
         "id" : "volkswagen-voyage",
         "titulo" : "Volkswagen Voyage",
         "descripcion": "El Volkswagen Voyage es un automóvil sedán compacto que se destaca por su estilo elegante y sobrio. Ofrece un amplio espacio interior, tecnología innovadora y un rendimiento confiable. Es una opción ideal para aquellos que buscan comodidad y funcionalidad en un vehículo de tamaño compacto.",
-        "imagen" : "img/volkswagen-voyage.png",
+        "imagen" : "public/img/volkswagen-voyage.png",
         "categoria" :{
             "nombre" : "Volkswagen",
             "id" : "volkswagen"

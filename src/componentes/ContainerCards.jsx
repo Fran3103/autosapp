@@ -1,5 +1,5 @@
 import Cards from './Cards';
-import {datos} from './data.js';
+import datos from './data.js';
 import { useEffect, useState } from 'react';
 
 const ContainerCards = () => {

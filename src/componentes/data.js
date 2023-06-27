@@ -1,6 +1,6 @@
 import data from '../datos2.json';
 
-export const datos = () =>{
+const datos = () =>{
 
     return new Promise ( (resolve, reject) => {
         {
@@ -8,5 +8,7 @@ export const datos = () =>{
         }
     })
 }
+
+export default datos
 
 
