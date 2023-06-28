@@ -1,7 +1,7 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 const Card = ({autos}) => {
-  console.log(autos.imagen)
+  
   return (
 
     <div className='contenedorCard'>
@@ -9,11 +9,10 @@ const Card = ({autos}) => {
         <img src={autos.imagen} className='img' alt={autos.titulo} /> 
         <div className='cardTexto'>
             <h3>{autos.titulo}</h3>
-            <p>
-                {autos.descripcion}
-            </p>
+            
+            <a href={`/autos/${autos.id}`}> ver mas </a> 
             <p>$ {autos.precio}</p>
-            <p>Marca <br />{autos.categoria.nombre}</p>
+            <p>Marca <br />{autos.categoria}</p>
         </div>
     </div>
   )

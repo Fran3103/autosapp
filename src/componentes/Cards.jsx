@@ -2,10 +2,10 @@ import React from 'react'
 import Card from './Card';
 
 
-const Cards = ({autos}) => {
+const Cards = ({autos }) => {
   return (
     <div>
-        <h2>Autos</h2>
+        <h2> autos</h2>
 
         <div className='Tarjetas'>
             {autos.map((auto) => < Card key={auto.id} autos={auto} />) }
