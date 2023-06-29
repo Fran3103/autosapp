@@ -1,7 +1,10 @@
 [
     {
-      "id": "chevrolet-cobalt",
+      "id": 1,
       "titulo": "Chevrolet Cobalt",
+      "año": "2020",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "19.494km",
       "descripcion": "El Chevrolet Cobalt es un sedán compacto con un diseño elegante y moderno. Ofrece un amplio espacio interior y comodidad para los pasajeros. Está equipado con características tecnológicas y de seguridad avanzadas.",
       "imagen":"https://github.com/Fran3103/autosapp/blob/master/src/img/chevrolet-cobalt.png?raw=true",
       "categoria":"Chevrolet",
@@ -9,8 +12,11 @@
       "precio": 2200000
     },
     {
-      "id": "chevrolet-onix",
+      "id": 2,
       "titulo": "Chevrolet Onix",
+      "año": "2018",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "43.002km",
       "descripcion": "El Chevrolet Onix es un automóvil subcompacto con un diseño aerodinámico y deportivo. Ofrece un rendimiento eficiente en combustible y cuenta con tecnología de conectividad y entretenimiento de última generación.",
       "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/chevrolet-onix.png?raw=true",
       "categoria": "Chevrolet",
@@ -18,8 +24,11 @@
       "precio": 1650000
     },
     {
-      "id": "chevrolet-spin",
+      "id": 3,
       "titulo": "Chevrolet Spin",
+      "año": "2020",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "23.721km",
       "descripcion": "El Chevrolet Spin es un monovolumen versátil y espacioso ideal para familias. Ofrece múltiples configuraciones de asientos y una gran capacidad de carga. Está equipado con tecnología y sistemas de seguridad avanzados.",
       "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/chevrolet-spin.png?raw=true",
       "categoria":  "Chevrolet",
@@ -27,8 +36,11 @@
       "precio": 1900000
     },
     {
-      "id": "fiat-argo",
+      "id": 4,
       "titulo": "Fiat Argo",
+      "año": "2018",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "33.592km",
       "descripcion": "El Fiat Argo es un hatchback compacto con un diseño moderno y deportivo. Ofrece un equilibrio entre rendimiento y eficiencia, así como características de seguridad y confort destacadas. Es ideal para la conducción en entornos urbanos.",
       "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/fiat-argo.png?raw=true",
       "categoria":  "Fiat",
@@ -36,8 +48,11 @@
       "precio": 1450000
     },
     {
-      "id": "fiat-cronos",
+      "id": 5,
       "titulo": "Fiat Cronos",
+      "año": "2018",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "23.312km",
       "descripcion": "El Fiat Cronos es un sedán elegante y sofisticado con un diseño aerodinámico. Ofrece un amplio espacio interior, tecnología de vanguardia y un rendimiento eficiente en combustible. Es una opción ideal para aquellos que buscan confort y estilo.",
       "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/fiat-cronos.png?raw=true",
       "categoria": "Fiat",
@@ -45,8 +60,11 @@
       "precio": 1345000
     },
     {
-      "id": "fiat-strada",
+      "id": 6,
       "titulo": "Fiat Strada",
+      "año": "2016",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "33.400km",
       "descripcion": "La Fiat Strada es una pick-up compacta versátil y robusta. Combina un diseño moderno con funcionalidad y capacidad de carga. Está equipada con tecnología y características de seguridad avanzadas, brindando un excelente rendimiento en cualquier terreno.",
       "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/fiat-strada.png?raw=true",
       "categoria": "Fiat",
@@ -54,8 +72,11 @@
       "precio": 1600000
     },
     {
-      "id": "fiat-toro",
+      "id": 7,
       "titulo": "Fiat Toro",
+      "año": "2016",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "33.342km",
       "descripcion": "La Fiat Toro es una pick-up de tamaño mediano con un diseño robusto y deportivo. Combina la versatilidad de una pick-up con el confort de un SUV. Ofrece un amplio espacio interior, tecnología avanzada y un rendimiento potente tanto en carretera como fuera de ella.",
       "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/fiat-toro.png?raw=true",
       "categoria":  "Fiat",
@@ -63,8 +84,11 @@
       "precio": 1900000
     },
     {
-      "id": "fiat-uno",
+      "id": 8,
       "titulo": "Fiat Uno",
+      "año": "2015",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "73.332km",
       "descripcion": "El Fiat Uno es un automóvil compacto y ágil, ideal para la conducción en entornos urbanos. Ofrece un diseño moderno, eficiencia en el consumo de combustible y un interior espacioso. Es una opción económica y práctica para el día a día.",
       "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/fiat-uno.png?raw=true",
       "categoria":"Fiat",
@@ -72,8 +96,11 @@
       "precio": 1890000
     },
     {
-      "id": "ford-eco",
+      "id": 9,
       "titulo": "Ford Ecosport",
+      "año": "2020",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "33.834km",
       "descripcion": "La Ford Ecosport es una SUV compacta con un diseño audaz y aventurero. Ofrece un manejo ágil, comodidad en el interior y tecnología avanzada para una conducción segura y conectada. Es perfecta tanto para la ciudad como para explorar nuevos caminos.",
       "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/ford-ecosport.png?raw=true",
       "categoria":  "Ford",
@@ -81,8 +108,11 @@
       "precio": 3450000
     },
     {
-      "id": "ford-fiesta",
+      "id": 10,
       "titulo": "Ford Fiesta",
+      "año": "2018",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "43.492km",
       "descripcion": "El Ford Fiesta es un hatchback versátil y divertido de conducir. Ofrece un diseño elegante, un interior cómodo y una amplia gama de características tecnológicas. Es ágil en la ciudad y eficiente en carretera, brindando una experiencia de conducción emocionante.",
       "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/ford-fiesta.png?raw=true",
       "categoria": "Ford",
@@ -90,8 +120,11 @@
       "precio": 3400000
     },
     {
-      "id": "ford-focus",
+      "id": 11,
       "titulo": "Ford Focus",
+      "año": "2017",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "53.883km",
       "descripcion": "El Ford Focus es un sedán compacto con un diseño sofisticado y deportivo. Ofrece un equilibrio entre rendimiento y eficiencia en combustible, así como tecnología y características de seguridad avanzadas. Es una opción ideal para aquellos que buscan estilo y comodidad.",
       "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/ford-focus.png?raw=true",
       "categoria": "Ford",
@@ -99,8 +132,11 @@
       "precio": 2400000
     },
     {
-      "id": "ford-ka",
+      "id": 12,
       "titulo": "Ford Ka",
+      "año": "2016",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "53.332km",
       "descripcion": "El Ford Ka es un automóvil compacto con un diseño moderno y juvenil. Ofrece un manejo ágil y eficiente, junto con características de conectividad y confort. Es perfecto para aquellos que buscan un vehículo práctico y económico.",
       "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/ford-ka.png?raw=true",
       "categoria":"Ford",
@@ -108,8 +144,11 @@
       "precio": 230000
     },
     {
-      "id": "ford-ranger",
+      "id": 13,
       "titulo": "Ford Ranger",
+      "año": "2021",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "13.122km",
       "descripcion": "La Ford Ranger es una pick-up robusta y poderosa diseñada para el trabajo duro y la aventura. Ofrece una gran capacidad de carga, tracción en las cuatro ruedas y tecnología avanzada para una conducción segura y conectada. Es ideal tanto para uso comercial como recreativo.",
       "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/ford-ranger.png?raw=true",
       "categoria":"Ford",
@@ -117,8 +156,11 @@
       "precio": 4000000
     },
     {
-      "id": "peugeot-208",
+      "id": 14,
       "titulo": "Peugeot 208",
+      "año": "2020",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "23.492km",
       "descripcion": "El Peugeot 208 es un hatchback elegante y dinámico con un diseño vanguardista. Ofrece un interior sofisticado, tecnología de vanguardia y un rendimiento ágil. Es una combinación perfecta de estilo y eficiencia para aquellos que buscan un automóvil compacto premium.",
       "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/peugeot-208.png?raw=true",
       "categoria": "Peugeot",
@@ -126,16 +168,22 @@
       "precio": 3400000
     },
     {
-      "id": "peugeot-308",
+      "id":15,
       "titulo": "Peugeot 308",
+      "año": "2014",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "93.932km",
       "descripcion": "El Peugeot 308 es un automóvil compacto con un diseño elegante y sofisticado. Ofrece una experiencia de conducción cómoda y refinada, así como tecnología avanzada y eficiencia en el consumo de combustible. Es una opción ideal para aquellos que valoran el estilo y la calidad.",
       "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/peugeot-308.png?raw=true",
       "categoria": "Peugeot",
       "precio": 3500000
     },
     {
-      "id": "peugeot-408",
+      "id": 16,
       "titulo": "Peugeot 408",
+      "año": "2018",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "27.932km",
       "descripcion": "El Peugeot 408 es un sedán de lujo con un diseño sofisticado y elegante. Ofrece un interior espacioso y refinado, junto con tecnología avanzada y un rendimiento potente. Es la opción perfecta para aquellos que buscan comodidad y estilo en un automóvil de gama alta.",
       "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/peugeot-408.png?raw=true",
       "categoria": "Peugeot",
@@ -143,8 +191,11 @@
       "precio": 3800000
     },
     {
-      "id": "peugeot-2008",
+      "id": 17,
       "titulo": "Peugeot 2008",
+      "año": "2017",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "23.002km",
       "descripcion": "El Peugeot 2008 es un SUV compacto con un diseño audaz y deportivo. Ofrece un interior versátil y tecnología de vanguardia, junto con un rendimiento potente y eficiencia en el consumo de combustible. Es perfecto para aquellos que buscan estilo y funcionalidad en un vehículo urbano.",
       "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/peugeot-2008.png?raw=true",
       "categoria": "Peugeot",
@@ -152,8 +203,11 @@
       "precio": 4200000
     },
     {
-      "id": "renault-clio",
+      "id": 18,
       "titulo": "Renault Clio",
+      "año": "2015",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "73.492km",
       "descripcion": "El Renault Clio es un hatchback compacto con un diseño moderno y elegante. Ofrece un interior cómodo y funcional, tecnología avanzada y eficiencia en el consumo de combustible. Es una opción versátil y confiable para la conducción diaria.",
       "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/Renault_Clio.png?raw=true",
       "categoria": "Renault",
@@ -161,8 +215,11 @@
       "precio": 2800000
     },
     {
-      "id": "renault-duster",
+      "id": 19,
       "titulo": "Renault Duster",
+      "año": "2019",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "43.492km",
       "descripcion": "La Renault Duster es una SUV compacta con un diseño robusto y aventurero. Ofrece una gran altura libre al suelo, tracción en las cuatro ruedas y un interior espacioso. Es perfecta para aquellos que buscan un vehículo versátil capaz de enfrentar cualquier terreno.",
       "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/renault-duster.png?raw=true",
       "categoria":"Renault",
@@ -170,8 +227,11 @@
       "precio": 3300000
     },
     {
-      "id": "renault-kwid",
+      "id": 20,
       "titulo": "Renault Kwid",
+      "año": "2022",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "3.492km",
       "descripcion": "El Renault Kwid es un automóvil compacto con un diseño moderno y juvenil. Ofrece un rendimiento eficiente en combustible, tecnología de conectividad y un interior cómodo. Es una opción económica y práctica para la movilidad urbana.",
       "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/renault-kwid.png?raw=true",
       "categoria":"Renault",
@@ -179,8 +239,11 @@
       "precio": 1900000
     },
     {
-      "id": "renault-logan",
+      "id": 21,
       "titulo": "Renault Logan",
+      "año": "2009",
+        "ubicacion": "La Plata",
+        "kilometros": "89.492km",
       "descripcion": "El Renault Logan es un sedán espacioso y confortable con un diseño elegante. Ofrece un amplio espacio interior, tecnología avanzada y eficiencia en el consumo de combustible. Es una opción ideal para aquellos que valoran la comodidad y la funcionalidad.",
       "imagen": "https://github.com/Fran3103/autosapp/blob/master/src/img/renaul-logan.png?raw=true",
       "categoria": "Renault",
@@ -188,8 +251,11 @@
       "precio": 2500000
     },
     {
-        "id" : "volkswagen-fox",
+        "id" : 22,
         "titulo" : "Volkswagen Fox",
+        "año": "2014",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "83.492km",
         "descripcion": "El Volkswagen Fox es un automóvil compacto y versátil que se destaca por su diseño moderno y urbano. Ofrece un excelente rendimiento en la ciudad y cuenta con características innovadoras para brindar comodidad y seguridad.",
         "imagen" : "https://github.com/Fran3103/autosapp/blob/master/src/img/volkswagen-fox.png?raw=true",
         "categoria" :"Volkswagen",
@@ -198,8 +264,11 @@
     
     },
     {
-        "id" : "volkswagen-gol",
+        "id" : 23,
         "titulo" : "Volkswagen Gol",
+        "año": "2020",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "35.452km",
         "descripcion": "El Volkswagen Gol es un automóvil de tamaño compacto y estilo deportivo. Es conocido por su confiabilidad, eficiencia en el consumo de combustible y amplio espacio interior. Combina un diseño atractivo con tecnología avanzada y un rendimiento sólido en diferentes condiciones de manejo.",
         "imagen" : "https://github.com/Fran3103/autosapp/blob/master/src/img/volkswagen-gol.png?raw=true",
         "categoria" : "Volkswagen",
@@ -208,8 +277,11 @@
     
     },
     {
-        "id" : "volkswagen-up",
+        "id" : 24,
         "titulo" : "Volkswagen Up",
+        "año": "2010",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "13.492km",
         "descripcion": "El Volkswagen Up es un automóvil pequeño pero espacioso, ideal para la conducción en entornos urbanos. Destaca por su agilidad, economía de combustible y amplia gama de características personalizables. A pesar de su tamaño compacto, ofrece un interior cómodo y seguro.",
         "imagen" : "https://github.com/Fran3103/autosapp/blob/master/src/img/volkswagen-up.png?raw=true",
         "categoria" : "Volkswagen",
@@ -218,8 +290,11 @@
     
     },
     {
-        "id" : "volkswagen-polo",
+        "id" : 25,
         "titulo" : "Volkswagen Polo",
+        "año": "2010",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "13.492km",
         "descripcion": "El Volkswagen Polo es un automóvil hatchback de tamaño mediano con un diseño elegante y deportivo. Es reconocido por su calidad de construcción, manejo ágil y características avanzadas de seguridad y confort. Ofrece un equilibrio entre rendimiento, comodidad y versatilidad.",
         "imagen" : "https://github.com/Fran3103/autosapp/blob/master/src/img/volkswagen-polo.png?raw=true",
         "categoria" :"Volkswagen",
@@ -228,8 +303,11 @@
     
     },
     {
-        "id" : "volkswagen-voyage",
+        "id" : 26,
         "titulo" : "Volkswagen Voyage",
+        "año": "2014",
+        "ubicacion": "Buenos Aires",
+        "kilometros": "33.492km",
         "descripcion": "El Volkswagen Voyage es un automóvil sedán compacto que se destaca por su estilo elegante y sobrio. Ofrece un amplio espacio interior, tecnología innovadora y un rendimiento confiable. Es una opción ideal para aquellos que buscan comodidad y funcionalidad en un vehículo de tamaño compacto.",
         "imagen" : "https://github.com/Fran3103/autosapp/blob/master/src/img/volkswagen-voyage.png?raw=true",
         "categoria" :"Volkswagen",

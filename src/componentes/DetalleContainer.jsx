@@ -1,17 +1,21 @@
 import React, { useEffect, useState } from 'react'
 import Detalle from './Detalle';
 import { detalleid } from './data';
+import { useParams } from 'react-router-dom';
+import Card from './Card';
 
-const DetalleContainer = ({itemid}) => {
+const DetalleContainer = () => {
 
-    const [detalle , setDetalle] = useState (null)
+    const [detalle , setDetalle] = useState (null);
+    const id = useParams().id;
+    
 
     useEffect(() => {
-        detalleid(itemid)
+        detalleid(Number(id))
             .then((res) =>{
                 setDetalle(res)
             })
-    }, [itemid])
+    }, [id])
 
   return (
     <div>

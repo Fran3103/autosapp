@@ -1,4 +1,6 @@
-import data from '../datos2.json';
+import data from '../datos/datos2.json';
+
+
 
 const datos = () =>{
 
@@ -21,16 +23,12 @@ export const detalleid = (id) =>{
         if (detalle){
             resolve(detalle)
         }
-        else{
-            reject(
-                {
-                    error:"El Producto no existe"
-                }
-            )
-            
-        }
+       
     })
 
 
 }
+
+
+
 
