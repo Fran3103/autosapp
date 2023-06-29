@@ -1,4 +1,4 @@
-import datacarrete from '../datos/datosCarrete.json'
+import datacarrete from '../../datos/datosCarrete.json'
 
 
 

@@ -1,4 +1,4 @@
-import data from '../datos/datos2.json';
+import data from '../../datos/datos2.json';
 
 
 

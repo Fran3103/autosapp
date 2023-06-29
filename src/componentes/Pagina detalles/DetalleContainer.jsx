@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import Detalle from './Detalle';
-import { detalleid } from './data';
+import { detalleid } from '../datosjson/data';
 import { useParams } from 'react-router-dom';
-import Card from './Card';
+
 
 const DetalleContainer = () => {
 

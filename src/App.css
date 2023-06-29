@@ -283,31 +283,79 @@ h2{
 
 .contenedor-carrete{
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
   max-width: 700px ;
   margin: 20px auto;
   
+  height: 200px;
+  overflow: hidden;
+}
+
+.botones-carrete{
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  
+}
+
+.botones-carrete :first-child{
+  border-radius: 10px 0 0 10px;
+}
+
+.botones-carrete :last-child{
+  border-radius: 0 10px 10px 0;
+  
 }
 
 
-.cardCarretes{
+.botones-carrete button{
+  height: 100%;
+  width: 30px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+
+  &:hover{
+    background-color:rgba(0, 0, 0, 0.6 );
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 2rem;
+
+  
+}
+
+.card{
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px auto;
+  height: 200px;
+  width: 700px;
+  overflow: hidden;
+  margin: 30px auto;
+}
+
+
+.card2{
   
-  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 30px;
-  padding: 0 30px;
+
 }
 
 
 
 
-.tarjeta-Carrete{
-  margin-top: 30px;
+.tarjeta-Carrete {
+  
   border: 1px solid rgba(0, 0, 0, 0.411);
   border-radius: 10px;
   box-shadow: 1px 1px 6px 4px  hsla(217, 71%, 19%, 0.616);
@@ -316,11 +364,12 @@ h2{
   justify-content: center;
   align-items: center;
   gap: 2px;
+  width: 150px;
   
 }
 .contenedor-imagen-carrete{
-  width: 150px;
-  height: 100px;
+  width: 148px;
+  height: 90px;
   border-radius: 10px 10px 0 0 ;
 }
 .imagen-carrete{
@@ -332,11 +381,12 @@ h2{
 .texto-carrete{
   margin: 5px auto;
   text-align: center;
-  height: 100px;
+  height: 90px;
   padding: 5px;
+  
 }
 
 .texto-carrete h3{
-  margin: 5px auto;
+  margin: 2px auto;
 }
 

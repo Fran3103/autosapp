@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import Cards from './Cards';
-import datos from './data.js';
+import datos from '../datosjson/data';
 import { useEffect, useState } from 'react';
 
 const ContainerCards = () => {

@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className='ContainerLinks' >
             <ul className='links'>
                 <li  >
-                    <Link className='btn-links' to="/">Autos</Link>
+                    <Link className='btn-links' to="/autos">Autos</Link>
                 </li>
 
                 <li >
