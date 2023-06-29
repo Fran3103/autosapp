@@ -6,9 +6,9 @@ import TarjetaCarrete from './TarjetaCarrete'
 
 const CardsCarretes = ({carretes}) => {
   return (
-    <div>
+    <div className='cardCarretes'>
 
-        {carretes.map ((carrete)=> <TarjetaCarrete key={carretes.id} carrete={carrete} /> )}
+        {carretes.map ((carrete)=> <TarjetaCarrete key={carrete.id} carrete={carrete} /> )}
     </div>
   )
 }

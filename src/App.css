@@ -186,23 +186,31 @@ h2{
 }
 
 .textoDetalle{
-  display: flex;
-  flex-direction: column;
+  
   width: 600px;
-  gap: 30px;
-  margin-top: 40px;
+  margin:20px auto;
   font-weight: 100;
   color: white;
 }
 
 .textoDetalle h3{
   color: black;
-}
+  margin: 10px 0;
 
+}
+.textoDetalle p {
+  font-size: 1.2rem;
+  margin: 15px 0;
+
+}
 .fechas-detalle{
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
   gap: 10px;
   font-weight: 100;
+  margin: 10px auto;
+  height: 20px;
 }
 
 .textoDetalle h3{
@@ -211,10 +219,7 @@ h2{
 
 }
 
-.textoDetalle p {
-  font-size: 1.2rem;
 
-}
 
 .img-detalle{
   width: 400px ;
@@ -233,7 +238,7 @@ h2{
   align-items: flex-start;
   gap: 10px;
     
-  
+ 
 }
 
 .btn-siguientes{
@@ -241,6 +246,7 @@ h2{
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+  margin-top: 20px;
 }
 
 .btn:hover{
@@ -276,20 +282,61 @@ h2{
 /* Edicion de Carrete */
 
 .contenedor-carrete{
+
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
-
+  max-width: 700px ;
+  margin: 20px auto;
+  
 }
+
+
+.cardCarretes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  
+  height: 270px;
+  gap: 30px;
+  padding: 0 30px;
+}
+
 
 
 
 .tarjeta-Carrete{
-  color: white;
+  margin-top: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.411);
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px 4px  hsla(217, 71%, 19%, 0.616);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 2px;
+  
 }
+.contenedor-imagen-carrete{
+  width: 150px;
+  height: 100px;
+  border-radius: 10px 10px 0 0 ;
+}
+.imagen-carrete{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0 0 ;
+}
+
+.texto-carrete{
+  margin: 5px auto;
+  text-align: center;
+  height: 100px;
+  padding: 5px;
+}
+
+.texto-carrete h3{
+  margin: 5px auto;
+}
+

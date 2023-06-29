@@ -1,60 +1,57 @@
 [
 
     {
-        "id" : "autos",
-        "imagen1" : "public/img/carrete/autos-chica.jpg",
-        "imagen2" : "public/img/carrete/autos-mediana.jpg",
-        "imagen3" : "public/img/carrete/autos-grande.jpg",
+        "id" : 1,
+        "imagen1" : "https://github.com/Fran3103/autosapp/blob/master/public/img/carrete/autos-chica.jpg?raw=true",
+        "imagen2" : "https://github.com/Fran3103/autosapp/blob/master/public/img/carrete/autos-mediana.jpg?raw=true",
+        "imagen3" : "https://github.com/Fran3103/autosapp/blob/master/public/img/carrete/autos-grande.jpg?raw=true",
         "titulo": "Autos",
         "descripcion" : "Varias marcas y modelos"
     },
 
     {
-        "id" : "concesionaria",
-        "imagen1" : "public/img/carrete/concesionaria-chica.jpg",
+        "id" : 2,
+        "imagen1" : "https://github.com/Fran3103/autosapp/blob/master/public/img/carrete/concesionaria-chica.jpg?raw=true",
         
-        "imagen3" : "public/img/carrete/concesionaria-grande.jpg",
+        "imagen3" : "https://github.com/Fran3103/autosapp/blob/master/public/img/carrete/concesionaria-grande.jpg?raw=true",
         "titulo": "Concesionaria",
         "descripcion" : "Tenemos sucursales en cada rincon del pais"
     },
 
     {
-        "id": "motos",
-        "imagen1" : "public/img/carrete/motos-chica.jpg",
-        "imagen2" : "public/img/carrete/motos-mediana.jpg",
-        "imagen3" : "public/img/carrete/motos-grande.jpg",
+        "id": 3,
+        "imagen1" : "https://github.com/Fran3103/autosapp/blob/master/public/img/carrete/motos-chica.jpg?raw=true",
+        "imagen2" : "https://github.com/Fran3103/autosapp/blob/master/public/img/carrete/motos-mediana.jpg?raw=true",
+        "imagen3" : "https://github.com/Fran3103/autosapp/blob/master/public/img/carrete/motos-grande.jpg?raw=true",
         "titulo": "Motos",
         "descripcion" : "Consegui la moto que buscas"
     },
 
     {
-        "id" : "prueba",
-        "imagen1" : "public/img/carrete/prueba-chica.jpg",
-        "imagen2" : "public/img/carrete/prueba-mediana.jpg",
-        "imagen3" : "public/img/carrete/prueba-grande.jpg",
+        "id" : 4,
+        "imagen1" : "https://github.com/Fran3103/autosapp/blob/master/public/img/carrete/prueba-chica.jpg?raw=true",
+        "imagen2" : "https://github.com/Fran3103/autosapp/blob/master/public/img/carrete/prueba-mediana.jpg?raw=true",
+        "imagen3" : "https://github.com/Fran3103/autosapp/blob/master/public/img/carrete/prueba-grande.jpg?raw=true",
         "titulo": "Prueba",
         "descripcion" : "Podes venir a probar tu nuevo vehiculo"
     },
 
     {
 
-        "id" : "service",
-        "imagen1" : "public/img/carrete/service-chica.jpg",
-        "imagen2" : "public/img/carrete/service-mediana.jpg",
-        "imagen3" : "public/img/carrete/service-grande.jpg",
+        "id" : 5,
+        "imagen1" : "https://github.com/Fran3103/autosapp/blob/master/public/img/carrete/service-chica.jpg?raw=true",
+        "imagen2" : "phttps://github.com/Fran3103/autosapp/blob/master/public/img/carrete/service-mediana.jpg?raw=true",
+        "imagen3" : "https://github.com/Fran3103/autosapp/blob/master/public/img/carrete/service-grande.jpg?raw=true",
         "titulo": "Service",
         "descripcion" : "Te damos garantia y service sin cargo"
     },
 
     {
-        "id" : "alta gama",
-        "imagen1" : "public/img/carrete/alta-gama-chica.jpg",
-        "imagen3" : "public/img/carrete/alta-gama-grande.jpg",
+        "id" : 6,
+        "imagen1" : "https://github.com/Fran3103/autosapp/blob/master/public/img/carrete/alta-gama-chica.jpg?raw=true",
+        "imagen3" : "https://github.com/Fran3103/autosapp/blob/master/public/img/carrete/alta-gama-grande.jpg?raw=true",
         "titulo": "Alta Gama",
         "descripcion" : "Las mejores marcas "
     }
-
-
-
 
 ]

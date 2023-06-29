@@ -4,8 +4,8 @@ const TarjetaCarrete = ({carrete}) => {
   return (
     <div className='tarjeta-Carrete'>
         
-        <div className="imagen-carrete">
-            <img src={carrete.imagen1} alt={carrete.titulo} />
+        <div className="contenedor-imagen-carrete">
+            <img src={carrete.imagen1} alt={carrete.titulo} className='imagen-carrete' />
         </div>
         <div className="texto-carrete">
             <h3>{carrete.titulo}</h3>
