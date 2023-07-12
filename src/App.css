@@ -4,6 +4,31 @@
   margin: 0;
 }
 
+
+/* Navbar Principal    ////*/
+
+.contenedor-navbarprincipal{
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+ 
+  
+
+}
+
+.logoPrincipal {
+  font-size: 3rem;
+}
+
+.contenedor-navbarprincipal , .container ul{
+  display: flex;
+  font-size: 1.2rem;
+  
+  gap: 20px;
+}
+
 .img{
   width: 200px;
   height: 150px;
@@ -17,6 +42,9 @@
   cursor: pointer;
   translate: 0px -80px;
 } */
+  
+
+/* Navbar secundario    ///// */
 
 .nav{
 
@@ -76,6 +104,110 @@ a{
   transition: 0.5ms;
   color: var(--cuarto);
 }
+
+
+/* Header principal ////// */
+
+
+.contenedorHeader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 1500px;
+  padding: 20px;
+  gap: 30px;
+}
+
+.imagenHeader{
+
+  width: 600px;
+  height: 400px;
+}
+
+.focus{
+  width: 100%;
+  height: 100%;
+}
+
+.textoHeader{
+
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.textoHeader h1 {
+  font-size: 2.4rem;
+  margin-right: 100px;
+}
+
+.textoHeader p {
+  font-size: 1.8rem;
+  font-weight: 100;
+  color:var(--cuarto);
+}
+
+.btnHeaderCompra{
+  padding: 15px 60px ;
+  background-color: var(--principal);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 5px 10px 1px var(--principal);
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-top: 30px;
+  color: var(--cuarto);
+  transition: 200ms all ease-in-out ;
+}
+
+.btnHeaderCompra:hover{
+  background-color: hsla(217, 92%, 15%, 0.986);
+  box-shadow: 1px 5px 10px 1px hsla(217, 89%, 15%, 0.726);
+ 
+  color: hsl(218, 55%, 69%);
+}
+
+.btnHeaderVenta{
+  background-color: none;
+  border:none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: var(--principal);
+  position: relative;
+  margin-top: 20px;
+  transition: 200ms all ease-in-out ;
+  width: 250px;
+ 
+}
+
+.btnHeaderVenta:hover{
+  color: var(--cuarto);
+  margin-left: 10px;
+ 
+}
+
+
+.btnHeaderVenta span{
+
+  font-size: 2.5rem;
+  top: 20px;
+  position: absolute;
+  top: -12px;
+  left:  260px;
+
+ 
+}
+
+.SubtituloHeader{
+  margin: 80px auto;
+  text-align: center;
+  font-size: 3rem;
+}
+
+/*  Contenedor y Tarjetas de venta /// */
 
 h2{
   margin-bottom: 100px;
@@ -164,6 +296,8 @@ h2{
   color: black;
   
 }
+
+/* Pagina de detalle ////// */
 
 .contenedorPrincipalDetalle{
   display: flex;
@@ -284,7 +418,7 @@ h2{
 .contenedor-carrete{
 
   
-  max-width: 700px ;
+  max-width: 1500px ;
   margin: 20px auto;
   
   height: 200px;
@@ -335,10 +469,12 @@ h2{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
-  width: 700px;
+  height: 425px;
+  width: 1300px;
   overflow: hidden;
   margin: 30px auto;
+  cursor: pointer;
+  
 }
 
 
@@ -364,12 +500,13 @@ h2{
   justify-content: center;
   align-items: center;
   gap: 2px;
-  width: 150px;
+  width: 370px;
+  
   
 }
 .contenedor-imagen-carrete{
-  width: 148px;
-  height: 90px;
+  width: 100%;
+  height: 250px;
   border-radius: 10px 10px 0 0 ;
 }
 .imagen-carrete{
@@ -381,12 +518,110 @@ h2{
 .texto-carrete{
   margin: 5px auto;
   text-align: center;
-  height: 90px;
-  padding: 5px;
+  height: 150px;
+  padding: 15px;
+  font-size: 1.2rem;
   
 }
 
 .texto-carrete h3{
   margin: 2px auto;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
 }
 
+.btnSlider{
+  margin: 60px auto;
+  display: flex;
+}
+
+
+/* Venta de Autos //// */
+
+.contenedorGralAside{
+  background-color: var(--tercero);
+  width: 100vw;
+  padding: 20px 0;
+  margin-bottom: 80px;
+}
+
+.contenedorAside{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  max-width: 1500px;
+  margin: 20px auto;
+  gap: 80px;
+  
+}
+
+.textoAside{
+  text-align: start;
+  width: 50%;
+  padding: 20px;
+}
+
+hr{
+  width: 80%;
+  margin: 20px 0;
+}
+.textoAside p{
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+  margin-right: 100px;
+}
+
+.textoAside h2{
+  font-size: 2.7rem;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.imagenAside{
+  width: 50%;
+}
+
+.imagenAside img{
+  width: 100%;
+  margin-left: 50px;
+  border-radius: 4px;
+}
+
+
+/* Contacto Principal ///////*/
+
+.contenedorContactoPrincipalGral{
+  width: 100vw;
+  background-color: white;
+  padding: 30px 0;
+  margin: 20px 0;
+}
+
+.contenedorContactoPrincipal{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1500px;
+  margin: 20px auto;
+  gap: 140px;
+}
+
+.textoContactoPrincipal{
+
+  width: 60%;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.textoContactoPrincipal h2{
+
+  color: var(--principal);
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+
+.textoContactoPrincipal p{
+  font-size: 1.4rem;
+  margin-right: 240px;
+}

@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react'
 import datosCarrete from '../datosjson/dataCarrete'
+import { Link } from 'react-router-dom'
 
 
 
@@ -7,20 +8,20 @@ const Slider = () => {
 
 
     const desliza = useRef([null])
-        console.log(desliza.current.children)
+    
     const siguiente = ()=> {
-        console.log('siguiente')
+        
             if(desliza.current.children.length > 0){
                 desliza.current.style.transition = `3000ms ease-out all`;
-                desliza.current.style.transform = `translateX(-190px)`;
+                desliza.current.style.transform = `translateX(-530px)`;
     }
     }
 
     const anterior = ()=> {
-        console.log('anterior')
+       
         if(desliza.current.children.length > 0){
             desliza.current.style.transition = `3000ms ease-out all`;
-            desliza.current.style.transform = `translateX(190px)`;
+            desliza.current.style.transform = `translateX(530px)`;
             }
         }
 
@@ -40,31 +41,41 @@ const Slider = () => {
 
 
 
-    <div className='card'   >
+    <div className="contedorSlider">
+        <h1 className='SubtituloHeader'>Las mejores opciones</h1>
+        <div className='card'   >
 
-        <div className="card2" ref={desliza}>
-                {cards.map((card) => 
             
-            <div  key={card.id}   className='tarjeta-Carrete'> 
+                
+            <div className="card2" ref={desliza}>
+                
+                    {cards.map((card) => 
+                
+                <div  key={card.id}   className='tarjeta-Carrete'> 
+                    
 
-                <div  className="contenedor-imagen-carrete">
-                    <img src={card.imagen1} alt={card.titulo}  className='imagen-carrete'/>
-                </div>
-                <div  className="texto-carrete">
-                    <h3>{card.titulo}</h3>
-                    <p>{card.descripcion}</p>
-                </div>
-            
-            
-            </div> )}
+                    <div  className="contenedor-imagen-carrete">
+                        <img src={card.imagen1} alt={card.titulo}  className='imagen-carrete'/>
+                    </div>
+                    <div  className="texto-carrete">
+                        <h3>{card.titulo}</h3>
+                        <p>{card.descripcion}</p>
+                    </div>
+                
+                
+                </div> )}
+            </div>
+
+
+
+            <div className="botones-carrete">
+                    <button onClick={anterior}>{'<'} </button>
+                    <button onClick={siguiente}>{'>'} </button>
+            </div>
         </div>
-        
-        
-
-        <div className="botones-carrete">
-                <button onClick={anterior}>{'<'} </button>
-                <button onClick={siguiente}>{'>'} </button>
-        </div>
+        <Link to="/autos" >
+                      <button className='btnHeaderCompra btnSlider'>  Compra tu auto </button> 
+        </Link>
     </div>
   )
 }
