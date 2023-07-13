@@ -3,8 +3,10 @@ import { Link } from 'react-router-dom'
 import foto from '../../img/Otras/ford-focus.png';
 
 const Header = () => {
+
+ 
   return (
-    <div>
+    <div >
         <div className='contenedorHeader'>
           <div className="textoHeader">
               <h1>La compra y venta de autos usados mas grande del pais</h1>

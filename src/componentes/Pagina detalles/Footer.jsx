@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import { CiFacebook, CiLinkedin } from "react-icons/ci";
+import { AiFillFacebook } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -39,17 +40,14 @@ const Footer = () => {
             </ul>
         </div>
         <div className="FooterRedes">
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
+                
         </div>
         <hr />
         <div className="FooterCopy">
             <p>© 2023 Check Movilidad S.A. Todos los derechos reservados.</p>
             <Link to="/politicadeprivacidad"> Políticas de Privacidad </Link>
             <Link to="/politicadeprivacidad"> Terminos y Condiciones </Link>
-            <a href="/https://autogestion.produccion.gob.ar/consumidores"> Defensa al consumidor </a>
+            <a href="https://autogestion.produccion.gob.ar/consumidores" target='blank'> Defensa al consumidor </a>
         </div>
         <p className="footercuit">
             CUIT N° 30-71594543-2 Shopping DOT 3er Subsuelo- Vedia 3600, CP 1430, Capital Federal, Argentina

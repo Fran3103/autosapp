@@ -1,7 +1,7 @@
 
 import './App.css';
+import React from 'react'
 
-import Slider from './componentes/Carpeta-Carretes/Slider';
 
 
 import ContainerCards from './componentes/Cards/ContainerCards';
@@ -14,11 +14,8 @@ import Vender from './componentes/Pagina detalles/Vender';
 import Sucursales from './componentes/Pagina detalles/Sucursales';
 import Nosotros from './componentes/Pagina detalles/Nosotros';
 import Contacto from './componentes/Pagina detalles/Contacto';
-import Header from './componentes/Pagina detalles/Header';
-import VentadeAuto from './componentes/Pagina detalles/VentadeAuto';
-import ContactoPrincipal from './componentes/Pagina detalles/ContactoPrincipal';
-import SedesContenedor from './componentes/Pagina detalles/SedesContenedor';
 import Footer from './componentes/Pagina detalles/Footer';
+import Principal from './componentes/Pagina detalles/Principal';
 
 
 
@@ -27,25 +24,23 @@ function App() {
     <div className="App">
       
       
-     <BrowserRouter>
+     <BrowserRouter >
      
       <NavBarPrincipal/>
      
       
-      <Routes> 
-        <Route path='/' element={[ <Header/>, <Slider />,<VentadeAuto/>, <ContactoPrincipal/>,<SedesContenedor/>]} />
+        <Routes > 
         
-
-        <Route path='/autos' element={[ <Navbar/>,<ContainerCards />]} />
-        <Route path='/autos/:categoria' element={[<Navbar/>,<ContainerCards/>]} />
-        <Route path='/auto/:id' element={[<Navbar/>,<DetalleContainer />]} />
-       
-        <Route path='/vender' element={[<Vender/>]}/>
-        <Route path='/sucursales' element={[<Sucursales/>]}/>
-        <Route path='/nosotros' element={[<Nosotros/>]}/>
-        <Route path='/contacto' element={[<Contacto/>]}/>
-        
-      </Routes>
+          <Route path='/' element={<Principal/>}/>
+          <Route path='/autos'  element={[ <Navbar/>,<ContainerCards />]} />
+          <Route path='/autos/:categoria'  element={[<Navbar/>,<ContainerCards/>]} />
+          <Route path='/auto/:id'   element={[<Navbar/>,<DetalleContainer />]} />
+          <Route path='/vender'  element={[<Vender/>]}/>
+          <Route path='/sucursales'  element={[<Sucursales/>]}/>
+          <Route path='/nosotros'  element={[<Nosotros/>]}/>
+          <Route path='/contacto' element={[<Contacto/>]}/>
+          
+        </Routes>
        
       <Footer/>
       </BrowserRouter>
