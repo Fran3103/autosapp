@@ -5,9 +5,9 @@ import data from '../../datos/datos2.json';
 const datos = () =>{
 
     return new Promise ( (resolve, reject) => {
-        {
+        
             resolve(data);
-        }
+        
     })
 }
 

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { CiFacebook, CiLinkedin } from "react-icons/ci";
-import { AiFillFacebook } from "react-icons/ai";
+
 
 const Footer = () => {
   return (
