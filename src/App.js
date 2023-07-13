@@ -33,7 +33,7 @@ function App() {
      
       
       <Routes> 
-        <Route path='/' element={[ <Header/>, <Slider />,<VentadeAuto/>, <ContactoPrincipal/>,<SedesContenedor/>,<Footer/>]} />
+        <Route path='/' element={[ <Header/>, <Slider />,<VentadeAuto/>, <ContactoPrincipal/>,<SedesContenedor/>]} />
         
 
         <Route path='/autos' element={[ <Navbar/>,<ContainerCards />]} />
@@ -47,7 +47,7 @@ function App() {
         
       </Routes>
        
-      
+      <Footer/>
       </BrowserRouter>
     </div>
   );
