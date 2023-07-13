@@ -18,6 +18,7 @@ import Header from './componentes/Pagina detalles/Header';
 import VentadeAuto from './componentes/Pagina detalles/VentadeAuto';
 import ContactoPrincipal from './componentes/Pagina detalles/ContactoPrincipal';
 import SedesContenedor from './componentes/Pagina detalles/SedesContenedor';
+import Footer from './componentes/Pagina detalles/Footer';
 
 
 
@@ -32,7 +33,7 @@ function App() {
      
       
       <Routes> 
-        <Route path='/' element={[ <Header/>, <Slider />,<VentadeAuto/>, <ContactoPrincipal/>,<SedesContenedor/>]} />
+        <Route path='/' element={[ <Header/>, <Slider />,<VentadeAuto/>, <ContactoPrincipal/>,<SedesContenedor/>,<Footer/>]} />
         
 
         <Route path='/autos' element={[ <Navbar/>,<ContainerCards />]} />

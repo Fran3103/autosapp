@@ -4,7 +4,7 @@
         "Titulo": "Kavak Abasto",
         "Descripcion":"Av. Corrientes 3247, C1193 CABA, 3er subsuelo",
         "Detalle":"googlemaps",
-        "imagen":"src/img/Otras/Abasto.jpg"
+        "imagen":"https://github.com/Fran3103/autosapp/blob/master/public/img/carrete/sedes/Abasto.jpg?raw=true"
     },
     {
         "id":2,
@@ -13,14 +13,14 @@
         "Detalle":"googlemaps",
         "inventario":"Inventario",
         "autos":"+400 autos",
-        "imagen":"src/img/Otras/DOT.jpg"
+        "imagen":"https://github.com/Fran3103/autosapp/blob/master/public/img/carrete/sedes/DOT.jpg?raw=true"
     },
     {
         "id":3,
         "Titulo": "Kavak San Martin",
         "Descripcion":"Av. San Martín 420, C1419 San Martín, Buenos Aires",
         "Detalle":"googlemaps",
-        "imagen":"src/img/Otras/sanmartin.jpg"
+        "imagen":"https://github.com/Fran3103/autosapp/blob/master/public/img/carrete/sedes/sanmartin.jpg?raw=true"
     },
     {
         "id":4,
@@ -29,6 +29,6 @@
         "Detalle":"googlemaps",
         "inventario":"Inventario",
         "autos":"+200 autos",
-        "imagen":"public/img/carrete/sedes/TOM.jpg"
+        "imagen":"https://github.com/Fran3103/autosapp/blob/master/public/img/carrete/sedes/TOM.jpg?raw=true"
     }
 ]

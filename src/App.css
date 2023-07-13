@@ -638,10 +638,141 @@ hr{
   justify-content: space-between;
   align-items: center;
   gap: 30px;
-  width: 70vw;
+  width: 60vw;
+  max-width: 1500px;
+  
   margin: 40px auto;
+
 }
 .contenedorSedes{
-  width: 250px;
+ 
+  border: 1px solid rgba(0, 0, 0, 0.411);
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px 4px  hsla(217, 71%, 19%, 0.616);
+  display: flex;
+  flex-direction: column;
+  
+  align-items: start;
+  
+  
+  width: 300px;
+  height: 380px
+  
+}
+
+.contenedorSedes h3{
+  text-align: left;
+}
+
+.imagenSede{
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+
+.botonContenedorSedes{
+ padding: 10px 20px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ gap: 20px;
+ height: 180px;
+ 
+ 
+}
+
+.titulosSedes p{
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+
+
+.textoSedes{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-bottom: 10px;
+}
+
+.btnSedes button{
+  padding: 6px 12px;
+  border: none;
+  border-radius: 3px;
+  background-color: var(--principal);
+  color:white;
+  font-size: 0.7rem;
+  cursor: pointer;
+  transition: 90ms all ease-in-out;
+
+  &:hover{
+    color: aliceblue;
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.411);
+  }
+  
+}
+
+.textoSedesInventario p {
+  font-size: 0.8rem;
+}
+
+
+/* Footer ///////////////*/
+
+
+.ContenedorFooter{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100vw;
+}
+
+.ContenedorFooterLinks{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  max-width: 1500px;
+  width: 100%;
+  padding: 30px;
+}
+
+.FooterListaLinks{
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.uno{
+  grid-column: 1;
+  grid-row: 1/4;
+
+}
+
+.dos{
+  grid-column: 2;
+  grid-row: 1/1;
+
+}
+.tres{
+  grid-column: 2;
+  grid-row: 2/2;
+
+}
+
+.cuatro{
+  grid-column: 2;
+  grid-row: 3/3;
+
+}
+
+.seis{
+  grid-column: 3;
+  grid-row: 3/3;
 
 }
