@@ -625,3 +625,23 @@ hr{
   font-size: 1.4rem;
   margin-right: 240px;
 }
+
+
+/* Sedes Principal ////// */
+
+.tituloSedesPrincipal{
+  text-align: center;
+  margin-top: 50px;
+}
+.TarjetasSedes{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  width: 70vw;
+  margin: 40px auto;
+}
+.contenedorSedes{
+  width: 250px;
+
+}

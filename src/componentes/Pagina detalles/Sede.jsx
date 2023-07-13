@@ -3,17 +3,18 @@ import { Link } from 'react-router-dom'
 
 const Sede = ({sede}) => {
   return (
-    <div className='contenedor'>
+    <div className='contenedorSedes'>
         <h2>{sede.Titulo}</h2>
+        <img src={sede.imagen} alt={sede.Titulo} className='imagenSede' />
         <p>{sede.Descripcion}</p>
-        <div className="boton">
-            <div className="texto">
+        <div className="botonContenedorSedes">
+            <div className="textoSedes">
                 <p>
                     {sede.inventario}
                 </p>
                 <p>{sede.autos}</p>
             </div>
-            <div className="btn">
+            <div className="btnSedes">
                 <Link>
                     <button>
                         Ver detalles
