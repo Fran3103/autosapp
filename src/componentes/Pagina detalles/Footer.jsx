@@ -1,6 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import {FaFacebook, FaLinkedin, FaInstagramSquare, FaTwitterSquare, FaYoutube , FaApple, FaAndroid} from "react-icons/fa";
+import nollamar  from '../../img/Otras/footerLOgo/dont-call.jpg';
+import fiscal  from '../../img/Otras/footerLOgo/DATAWEB.jpg'
+import data  from '../../img/Otras/footerLOgo/aaip.jpg'
+import ssn  from '../../img/Otras/footerLOgo/SSN.jpg'
 
 const Footer = () => {
   return (
@@ -39,7 +44,14 @@ const Footer = () => {
             </ul>
         </div>
         <div className="FooterRedes">
-                
+               <FaFacebook />
+               <FaInstagramSquare/>
+               <FaTwitterSquare/>
+               <FaYoutube />
+               <FaLinkedin/>
+               <FaApple/>
+               <FaAndroid/>
+
         </div>
         <hr />
         <div className="FooterCopy">
@@ -53,10 +65,10 @@ const Footer = () => {
         </p>
 
         <div className="footerlogos">
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <img src={nollamar} alt="nollmar" />
+            <img src={data} alt="data" />
+            <img src={fiscal} alt="fiscal" />
+            <img src={ssn} alt="ssn" />
         </div>
         <p className='footerley'>
                 LA AGENCIA DE ACCESO A LA INFORMACIÓN PÚBLICA, en su carácter de Órgano de Control de la Ley N° 25.326, tiene la atribución de atender las denuncias y reclamos que interpongan quienes resulten afectados en sus derechos por incumplimiento de las normas vigentes en materia de protección de datos personales.

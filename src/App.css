@@ -776,3 +776,71 @@ hr{
   grid-row: 3/3;
 
 }
+
+
+.FooterRedes{
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1500px;
+  color: white;
+  font-size: 40px;
+  gap: 30px;
+  
+}
+
+.FooterRedes :only-child{
+  cursor: pointer;
+}
+
+.FooterCopy{
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  width: 100%;
+  max-width: 1500px;
+  color: white;
+  margin: 20px 0;
+}
+
+
+.footercuit{
+  text-align: start;
+  width: 100%;
+  max-width: 1500px;
+  color: white;
+}
+
+.footerley{
+  color: white;
+  width: 100%;
+  max-width: 1500px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.footerlogos{
+  width: 100%;
+  max-width: 1500px;
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+
+.footerlogos img{
+  width: 60px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.footerlogos :first-child{
+  width: 140px;
+}
+
+.footerlogos :last-child{
+  width: 140px;
+}
