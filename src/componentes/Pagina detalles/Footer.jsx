@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import {FaFacebook, FaLinkedin, FaInstagramSquare, FaTwitterSquare, FaYoutube , FaApple, FaAndroid} from "react-icons/fa";
@@ -6,8 +6,29 @@ import nollamar  from '../../img/Otras/footerLOgo/dont-call.jpg';
 import fiscal  from '../../img/Otras/footerLOgo/DATAWEB.jpg'
 import data  from '../../img/Otras/footerLOgo/aaip.jpg'
 import ssn  from '../../img/Otras/footerLOgo/SSN.jpg'
+import { FiAlertCircle, FiXSquare} from "react-icons/fi";
+
+
 
 const Footer = () => {
+    
+const [visible , setVisible] = useState ("AyudaPreguntas ")
+
+
+
+
+const botonclick = () => {
+   
+        setVisible("AyudaPreguntas ver")
+      
+}
+const botonCerrar = () => {
+   
+    setVisible("cerrado")
+    
+}
+
+
   return (
     <div className='ContenedorFooter'>
         <div className="ContenedorFooterLinks">
@@ -74,12 +95,13 @@ const Footer = () => {
                 LA AGENCIA DE ACCESO A LA INFORMACIÓN PÚBLICA, en su carácter de Órgano de Control de la Ley N° 25.326, tiene la atribución de atender las denuncias y reclamos que interpongan quienes resulten afectados en sus derechos por incumplimiento de las normas vigentes en materia de protección de datos personales.
         </p>
 
-        <div className="footerAyuda">
-            <p>
-                Ayuda
+        <div className="footerAyuda" >
+            <p onClick={botonclick}>
+                <FiAlertCircle/> Ayuda
             </p>
 
-            <div className="AyudaPreguntas">
+            <div className={visible}   >
+                <div className="cerrar"  onClick={botonCerrar}><FiXSquare  /></div>
                 <Link to="/preguntasFrecuentes">Preguntas Frecuentes</Link>
                 <hr />
                 <Link to="/contacto">Contacto</Link>

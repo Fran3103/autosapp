@@ -844,3 +844,74 @@ hr{
 .footerlogos :last-child{
   width: 140px;
 }
+
+.footerAyuda{
+
+  color: white;
+  background-color: blue;
+  border-radius: 20px;
+  text-align: center;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 35px;
+  bottom: 15px;
+  right: 15px;
+  
+  transition: 325ms all ease-in-out;
+  &:hover{
+    background-color: white;
+    color: black;
+  }
+}
+
+.footerAyuda :first-child{
+  cursor: pointer; 
+}
+
+.AyudaPreguntas{
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 200px;
+  background-color: white;
+  color: black;
+  bottom: -3px;
+  right: -1px;
+  z-index: 0;
+  transition: 366225ms all ease-in-out;
+  
+}
+
+.AyudaPreguntas :only-child{
+  cursor: pointer; 
+  color: black;
+}
+
+.ver{
+  display: flex;
+  
+}
+
+.cerrar{
+
+  font-size: 1.4rem;
+  margin-left: 130px;
+  padding-bottom: 12px;
+  color: white;
+  
+  
+  
+}
+
+.cerrado{
+  display: none;
+  
+}
