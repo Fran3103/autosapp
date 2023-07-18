@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import {FaFacebook, FaLinkedin, FaInstagramSquare, FaTwitterSquare, FaYoutube , FaApple, FaAndroid} from "react-icons/fa";
