@@ -35,7 +35,7 @@ function App() {
           <Route path='/autos'  element={[ <Navbar/>,<ContainerCards />]} />
           <Route path='/autos/:categoria'  element={[<Navbar/>,<ContainerCards/>]} />
           <Route path='/auto/:id'   element={[<Navbar/>,<DetalleContainer />]} />
-          <Route path='/vender'  element={[<Vender/>]}/>
+          <Route path='/vender'  element={<Vender/>}/>
           <Route path='/sucursales'  element={[<Sucursales/>]}/>
           <Route path='/nosotros'  element={[<Nosotros/>]}/>
           <Route path='/contacto' element={[<Contacto/>]}/>

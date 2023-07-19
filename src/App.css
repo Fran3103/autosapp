@@ -915,3 +915,312 @@ hr{
   display: none;
   
 }
+
+
+/*------ Pagina Vender --------*/
+/* Header-Ventas ------- */
+
+.contenedorHeaderVentas{
+  width: 100%;
+  max-width: 1500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.textoVentas{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-evenly;
+  height: 300px;
+}
+
+.textoVentas h1 {
+  margin-bottom: -30px;
+  font-size: 2.8rem;
+  margin-right: 300px;
+
+}
+
+.textoVentas p {
+  color: var(--cuarto);
+}
+.textoVentas button{
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.3rem;
+  color:  #a5c9c3;;
+  background-color: var(--principal);
+  box-shadow: 0 0 19px  #84a7a157;
+  cursor: pointer;
+  &:hover{
+    box-shadow:0 0 19px  #84a7a1a8; 
+    color: #d4e7e4;
+  }
+}
+
+.imagenVentas{
+  width: 100%;
+  max-width: 700px;
+  height: 500px;
+}
+
+.imagenVentas img{
+  width: 100%;
+  height: 100%;
+}
+
+/* ----- Aside ventas -------*/
+
+.contenedorAsideVentas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 80px auto;
+  width: 100%;
+  max-width: 1500px;
+
+}
+
+.contenedorAsideVentas h2{
+  text-align: center;
+  margin: 10px 470px;
+}
+
+.cardVentas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 80px;
+  margin-top: 50px;
+}
+
+.iconos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  width: 250px;
+}
+
+.iconos svg{
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.iconos h4{
+
+  color: white;
+}
+
+.iconos p {
+  color: var(--cuarto);
+}
+
+
+/* ------- Compramos Tu auto ------ */
+
+.contenedorCompramosAuto{
+  width: 100%;
+  height: 360px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cuarto);
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.textoCompramosAuto{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 30px;
+}
+
+.textoCompramosAuto h3{
+  font-size: 1.9rem;
+}
+
+.textoCompramosAuto p{
+  color: white;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.textoCompramosAuto button{
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.3rem;
+  color:  #a5c9c3;;
+  background-color: var(--tercero);
+  box-shadow: 0 0 19px  #37c7af57;
+  cursor: pointer;
+  &:hover{
+    box-shadow:0 0 9px  #1c3bc752; 
+    color: #d4e7e4;
+  }
+
+}
+
+.ofertas{
+  display: grid;
+  grid-template-columns: 300px 300px;
+  
+  gap: 30px;
+  margin: 30px;
+}
+
+.ofertas p{
+  grid-column: 1/4;
+}
+
+.ofertaInmediata, .ofertaIntercambio{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 20px 50px 20px;
+}
+
+.ofertas h4{
+  margin: 10px 0;
+}
+
+
+/* ----- Testimonios Ventas ----- */
+
+
+ .ContenedorTestimonioGral{
+  width: 100%;
+  max-width: 1500px;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: center;
+  margin-bottom: 40px;
+
+}
+
+.contenedorTestimonios{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.testimonio{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+  height: 330px;
+  text-align: start;
+  padding: 25px 20px 40px 20px;
+  gap: 12px;
+  border-radius: 20px;
+
+  box-shadow: 1px 1px 5px 1px var(--principal);
+}
+
+.nombreTestimonio{
+  font-size: 1.6rem;
+  color: black;
+}
+
+.autoTestimonio{
+  font-size: 0.8rem;
+  color: var(--cuarto);
+}
+
+.estrellas{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.estrella{
+  color: yellow;
+  font-size: 1.1rem
+}
+
+.textoTestimonio{
+  font-size: 1.1rem;
+
+}
+
+
+
+/*- ------  Preguntas Frecuentes ---------*/
+
+
+.ContenedorPF h2{
+  text-align: center;
+
+}
+
+.preguntasContenedor{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 30px auto;
+
+}
+
+.pregunta{
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+hr{
+  width: 100%;
+}
+
+.txtPregunta{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.respuesta{
+  font-size: 1rem;
+  margin-right: 20px;
+  display: none;
+}
+
+.flechas{
+  font-size: 1.6rem;
+  color: white;
+  cursor: pointer;
+}
+
+.visible{
+  display: flex;
+}
+
+.noVisible{
+  display: none;
+}
