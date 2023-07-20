@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiFillCalendar, AiFillCreditCard, AiFillCar  } from "react-icons/ai";
-import imagen from '../../../img/chevrolet-cobalt.png'
+import imagen from '../../../img/Otras/ford-focus.png'
 
 const ServicioEspecialista = () => {
   return (

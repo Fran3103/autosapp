@@ -3,7 +3,8 @@ import celular from '../../img/Otras/Celular.webp'
 import { Link } from 'react-router-dom'
 const ContactoPrincipal = () => {
   return (
-    <div className='contenedorContactoPrincipalGral'>
+   <div className="contenedor">
+       <div className='contenedorContactoPrincipalGral'>
         <div className="contenedorContactoPrincipal">
             <div className="imagenContactoPrincipal">
                 <img src={celular} alt="celular" />
@@ -16,7 +17,12 @@ const ContactoPrincipal = () => {
                 </Link>
             </div>
         </div>
+      
+
+    
     </div>
+    <h2 className='tituloSedesPrincipal subtituloReserva2'> Nuestras Sucursales</h2>
+   </div>
   )
 }
 

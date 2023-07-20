@@ -10,19 +10,19 @@ const TablaService = () => {
             
  
         <div className="tabla">
-            <table className='NavTabla'>
-                <tr >
+            <table className='NavTabla '>
+                <tr>
                     <th className="Servicio service">
                        
                             <h2>Servicio</h2>
-                            <p>*El precio final dependerá de la marca y modelo de       tu    auto.</p>
+                            <p className='asterisco'>*El precio final dependerá de la marca y modelo de       tu    auto.</p>
                         
                     </th>
                     <th className="Servicio plata">
                         
                             <h2>Plata</h2>
                             <p>desde</p>
-                            <p> <span> $</span> 2.404*/mes </p>
+                            <p className='precio'> <span> $</span> 2.404*/mes </p>
                             <p>en 12 cuotas sin interés</p>
                             <button>Elegir servicio</button>
                         
@@ -32,71 +32,67 @@ const TablaService = () => {
 
                             <h2>Oro</h2>
                             <p>desde</p>
-                            <p> <span> $</span> 3.582*/mes </p>
+                            <p className='precio'> <span> $</span> 3.582*/mes </p>
                             <p>en 12 cuotas sin interés</p>
                             <button>Elegir servicio</button>
                         
                     </th>
                 </tr> 
-                
-        </table>   
-        
-        <table className='TablaCuerpo'>
-                
-                <tr>
-                    <th>Cambio de aceite y filtro</th>
-                    <th><BsCheckCircleFill/></th>
-                    <th><BsCheckCircleFill/></th>
+  
+                <tr className='tabla1'>
+                    <td>Cambio de aceite y filtro</td>
+                    <td><BsCheckCircleFill/></td>
+                    <td><BsCheckCircleFill/></td>
                 </tr>
-                <tr>
-                    <th>Revisión y relleno de niveles</th>
-                    <th><BsCheckCircleFill/></th>
-                    <th><BsCheckCircleFill/></th>
+                <tr className='tabla2'>
+                    <td>Revisión y relleno de niveles</td>
+                    <td><BsCheckCircleFill/></td>
+                    <td><BsCheckCircleFill/></td>
                 </tr>
-                <tr>
-                    <th>Revisión de fugas en frenos y refrigeración</th>
-                    <th><BsCheckCircleFill/></th>
-                    <th><BsCheckCircleFill/></th>
+                <tr className='tabla1'>
+                    <td>Revisión de fugas en frenos y refrigeración</td>
+                    <td><BsCheckCircleFill/></td>
+                    <td><BsCheckCircleFill/></td>
                 </tr>
-                <tr>
-                    <th>Verificación de embrague y suspensión</th>
-                    <th><BsCheckCircleFill/></th>
-                    <th><BsCheckCircleFill/></th>
+                <tr className='tabla2'>
+                    <td>Verificación de embrague y suspensión</td>
+                    <td><BsCheckCircleFill/></td>
+                    <td><BsCheckCircleFill/></td>
                 </tr>
-                <tr>
-                    <th>Chequeo de cinturones, trabas y luces</th>
-                    <th><BsCheckCircleFill/></th>
-                    <th><BsCheckCircleFill/></th>
+                <tr className='tabla1'>
+                    <td>Chequeo de cinturones, trabas y luces</td>
+                    <td><BsCheckCircleFill/></td>
+                    <td><BsCheckCircleFill/></td>
                 </tr>
-                <tr>
-                    <th>Control de frenos, discos y pastillas de freno</th>
-                    <th><BsCheckCircleFill/></th>
-                    <th><BsCheckCircleFill/></th>
+                <tr className='tabla2'>
+                    <td>Control de frenos, discos y pastillas de freno</td>
+                    <td><BsCheckCircleFill/></td>
+                    <td><BsCheckCircleFill/></td>
                 </tr>
-                <tr>
-                    <th>Revisión de batería</th>
-                    <th><BsCheckCircleFill/></th>
-                    <th><BsCheckCircleFill/></th>
+                <tr className='tabla1'>
+                    <td>Revisión de batería</td>
+                    <td><BsCheckCircleFill/></td>
+                    <td><BsCheckCircleFill/></td>
                 </tr>
-                <tr>
-                    <th>Cambio de filtro de aire</th>
-                    <th><BsCheckCircleFill/></th>
-                    <th><BsCheckCircleFill/></th>
+                <tr className='tabla2'>
+                    <td>Cambio de filtro de aire</td>
+                    <td><BsCheckCircleFill/></td>
+                    <td><BsCheckCircleFill/></td>
                 </tr>
-                <tr>
-                    <th>Rotación y balanceo</th>
-                    <th></th>
-                    <th><BsCheckCircleFill/></th>
+                <tr className='tabla1'>
+                    <td>Rotación y balanceo</td>
+                    <td></td>
+                    <td><BsCheckCircleFill/></td>
                 </tr>
-                <tr>
-                    <th>Filtro habitáculo</th>
-                    <th></th>
-                    <th><BsCheckCircleFill/></th>
+                <tr className='tabla2'>
+                    <td>Filtro habitáculo</td>
+                    <td></td>
+                    <td><BsCheckCircleFill/></td>
                 </tr>
-                <tr>
-                    <th>Diagnóstico electrónico con scanner</th>
-                    <th></th>
-                    <th><BsCheckCircleFill/></th>
+                <tr className='tabla1'>
+                    <td>Diagnóstico electrónico con scanner</td>
+                    <td></td>
+                    <td><BsCheckCircleFill/></td>
                 </tr>
                 
             </table>
