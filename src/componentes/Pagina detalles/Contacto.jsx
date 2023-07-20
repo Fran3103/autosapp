@@ -1,9 +1,14 @@
 import React from 'react'
+import HeaderService from './Contrata Service/HeaderService'
+import ServicioEspecialista from './Contrata Service/ServicioEspecialista'
+import TablaService from './Contrata Service/TablaService'
 
 const Contacto = () => {
   return (
     <div>
-        <h1>Contacto</h1>
+        <HeaderService/>
+        <ServicioEspecialista/>
+        <TablaService/>
     </div>
   )
 }

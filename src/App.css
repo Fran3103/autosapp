@@ -1224,3 +1224,271 @@ hr{
 .noVisible{
   display: none;
 }
+
+
+/* ------ Sucursales ------------*/
+
+.ContenedorHeaderSucursales{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1500px;  
+  margin: 60px auto;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+
+.titulosSucursales{
+  width: 30%;
+  height: 100px;
+  
+}
+
+.titulosSucursales h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.titulosSucursales p {
+  font-size: 1.5rem;
+}
+
+.imagenSucursales{
+  width: 700px;
+  height: 500px;
+}
+
+.imagenSucursales img {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* -------- Service -----------*/
+
+.ContenedorHeaderService{
+
+  width: 100%;
+  height: 600px;
+  background-image: url(../src/img/Otras/Service/Principal.jpg);
+  background-position:left;
+  margin: 30px auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+
+}
+
+.TextoHeaderService{
+  text-align: left;
+  width: 800px;
+  max-width: 1500px;
+  margin-left:300px; 
+  margin-top: 190px;
+
+}
+
+.TextoHeaderService h2{
+  font-size: 2.5rem;
+  margin-top: -100px;
+  margin-bottom: 40px;
+  margin-right: 230px;
+}
+
+.TextoHeaderService p {
+  color: white;
+  font-size: 1.5rem;
+  margin: 20px 0;
+  margin-right: 230px;
+  
+}
+
+.TextoHeaderService span{
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: italic;
+}
+
+.TextoHeaderService button{
+  border: none;
+  background-color: var(--secundario);
+  color: var(--cuarto);
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.4);
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  &:hover{
+    background-color: var(--secundario);
+    color: white;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+}
+
+
+
+/* ------- Service Especialistas -------*/
+
+
+.ContenedorEspecialistasGral{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  max-width: 1700px;
+  height: 500px;
+  margin: 20px auto;
+  border-radius: 30px;
+  background-color: var(--cuarto);
+
+}
+
+.imagenEspecialista{
+  width: 420px;
+  margin-left: -50px;
+}
+.imagenEspecialista img{
+  width: 100%;
+}
+
+.textoEspecialista{
+  width: 60%;
+  margin-top: 30px;
+
+}
+
+.textoEspecialista h2{
+  text-align: left;
+  margin-right: 20px;
+}
+
+.ContenedorEspecialistas{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin-top: -60px;
+}
+
+.ContenedorIconosEspecialista{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+
+.iconoEspecialista{
+  padding: 18px;
+  padding-top: 22px;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 10px;
+  font-size: 2.3rem;
+  text-align: center;
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.5);
+  color: var(--principal);
+}
+
+.textoIconoEspecialista{
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+/*-------Tabla Service------*/
+
+
+.ContenedorTabla{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1500px;
+  width: 100%;
+  margin: 60px auto;
+  
+}
+
+
+.NavTabla h2{
+  margin-bottom: 20px;
+  text-align: left;
+  color: black;
+}
+.Servicio{
+  text-align: center;
+  width: 600px;
+  position: sticky;
+  top: 0;
+  display: table-cell;
+  background-color: white;
+  
+ 
+}
+
+.NavTabla tr{
+  display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.NavTabla tr th p{
+  text-align: left;
+} 
+
+.NavTabla{
+  padding: 20px 10px 100px ;
+  border-spacing: 0;
+}
+
+
+
+.service{
+  vertical-align: top;
+}
+
+.plata, .oro p{
+  font-size: 1.4rem;
+}
+
+
+
+.tabla tr th{
+
+  width: 1500px;
+  padding: 20px;
+  text-align: left;
+}
+
+.TablaCuerpo tr th{
+  text-align: center;
+}
+.TablaCuerpo tr :first-child{
+  text-align: left;
+}
+
+.TablaCuerpo{
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.Servicio button{
+  
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 12px 65px 12PX 65PX;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--principal);
+  color: var(--cuarto);
+  box-shadow:1px 1px 10px 1px  rgba(0, 0, 0, 0.5);
+  &:hover{
+    color: white;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.9);
+  }
+
+}

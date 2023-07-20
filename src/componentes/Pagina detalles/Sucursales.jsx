@@ -1,8 +1,14 @@
 import React from 'react'
+import HeaderSucursales from './Sucursales/HeaderSucursales'
+import SedesContenedor from './SedesContenedor'
 
 const Sucursales = () => {
   return (
-    <div>Sucursales</div>
+    <div>
+      <HeaderSucursales/>
+      <SedesContenedor/>
+    
+    </div>
   )
 }
 
