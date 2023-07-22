@@ -102,9 +102,9 @@ const botonCerrar = () => {
 
             <div className={visible}   >
                 <div className="cerrar"  onClick={botonCerrar}><FiXSquare  /></div>
-                <Link to="/preguntasFrecuentes">Preguntas Frecuentes</Link>
+                <Link to="/PreguntasFrecuentesPrincipal">Preguntas Frecuentes</Link>
                 <hr />
-                <Link to="/contacto">Contacto</Link>
+                <Link to="/#">Contacto</Link>
                 <hr />
             </div>
         </div>
