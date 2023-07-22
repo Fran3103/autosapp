@@ -13,9 +13,10 @@ import NavBarPrincipal from './componentes/Navbar/NavBarPrincipal';
 import Vender from './componentes/Pagina detalles/Vender';
 import Sucursales from './componentes/Pagina detalles/Sucursales';
 import Nosotros from './componentes/Pagina detalles/Nosotros';
-import Contacto from './componentes/Pagina detalles/Contacto';
 import Footer from './componentes/Pagina detalles/Footer';
 import Principal from './componentes/Pagina detalles/Principal';
+import Service from './componentes/Pagina detalles/Service';
+import PreguntasFrecuentesPrincipal from './componentes/Pagina detalles/Paginas footer/PreguntasFrecuentesPrincipal';
 
 
 
@@ -38,7 +39,8 @@ function App() {
           <Route path='/vender'  element={<Vender/>}/>
           <Route path='/sucursales'  element={<Sucursales/>}/>
           <Route path='/nosotros'  element={<Nosotros/>}/>
-          <Route path='/contacto' element={<Contacto/>}/>
+          <Route path='/service' element={<Service/>}/>
+          <Route path='/PreguntasFrecuentesPrincipal' element={<PreguntasFrecuentesPrincipal/>}/>
           
         </Routes>
        

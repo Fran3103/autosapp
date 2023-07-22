@@ -14,8 +14,8 @@ const NavBarPrincipal = () => {
                 <Link to="/autos">Comprar</Link>
                 <Link to="/vender">Vender</Link>
                 <Link to="/sucursales">Sucursales</Link>
-                <Link to="/nosotros">Nosotros</Link>
-                <Link to="/Contacto">Contacto</Link>
+                <Link to="/PreguntasFrecuentesPrincipal">Preguntas Frecuentes</Link>
+                <Link to="/service">Contrata un service</Link>
             </ul>
         </div>
     </div>

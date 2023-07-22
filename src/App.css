@@ -1564,3 +1564,135 @@ td svg{
   margin: 50px 300px;
 }
 
+
+/* ------- Pagina Preguntas Frecuentes ----------*/
+
+
+
+.ContenedorPreguntas{
+  width: 100%;
+  max-width: 1500px;
+  margin: 30px auto;
+  margin-bottom: 200px;
+}
+
+.headerPreguntas{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textoPreguntas{
+  padding: 10px 50px 10px 90px;
+  margin-right: 200px;
+
+}
+
+.textoPreguntas h3{
+  font-size: 1.3rem;
+  margin: 17px 0;
+}
+
+.textoPreguntas h1{
+  font-size: 2.8rem;
+}
+
+
+.contenedorListaPreguntas{
+  margin: 20px auto;
+  display: flex;
+
+  list-style: none;
+  margin-top: 100px;
+  max-width: 1200px;
+ 
+
+
+}
+
+.contenedorListaPreguntas li{
+ 
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  
+  
+}
+
+
+.tituloLista{
+  border-bottom: 1px solid gray;
+  padding: 20px;
+}
+
+.contenedorCV{
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.CompraPreguntas, .VentasPreguntas{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px*7;
+  gap: 20px;
+  display: none;
+}
+
+.CompraPreguntas h3{
+  grid-column: 1/3;
+  grid-row: 1/1;
+  margin: 60px 0;
+  font-size: 1.9rem;
+  
+}
+
+.VentasPreguntas h3{
+  grid-column: 1/3;
+  grid-row: 1/1;
+  margin: 60px 0;
+  font-size: 1.9rem
+}
+
+.iconoPregunta{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+
+}
+
+.iconoPregunta svg{
+  font-size: 1.5rem;
+  margin-left: 30px;
+}
+
+.Respuesta{
+  font-size: 1rem;
+  margin: 10px ;
+  display: none;
+  
+}
+
+
+.svgUp{
+  display: none;
+}
+
+
+.vista{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px*7;
+  gap: 20px;
+}
+
+.seleccion{
+  color: white ;
+  border-bottom: 2px solid white ;
+  
+}

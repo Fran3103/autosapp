@@ -48,7 +48,7 @@ const botonCerrar = () => {
                     <Link to="/sedes">Sedes</Link>
                 </li>
                 <li className="FooterLink seis">
-                    <Link to="/preguntasfrecuentes">Preguntas Frecuentes</Link>
+                    <Link to="/PreguntasFrecuentesPrincipal">Preguntas Frecuentes</Link>
                 </li>
                 <li className="FooterLink siete">
                     <Link to="/testimonios">Testimoniales</Link>
@@ -57,7 +57,7 @@ const botonCerrar = () => {
                     <Link to="/blog">Blog</Link>
                 </li>
                 <li className="FooterLink nueve">
-                    <Link to="/contacto">Contacto</Link>
+                    <Link to="/service">Service</Link>
                 </li>
                 <li className="FooterLink diez">
                     <Link to="/librodequejas">Libro de quejas</Link>
