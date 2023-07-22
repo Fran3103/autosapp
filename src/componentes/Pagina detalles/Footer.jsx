@@ -42,25 +42,25 @@ const botonCerrar = () => {
                     <Link to="/vender">Vende un auto</Link>
                 </li>
                 <li className="FooterLink cuatro">
-                    <Link to="/financiamiento">Financiamiento</Link>
+                    <Link to="/#">Financiamiento</Link>
                 </li>
                 <li className="FooterLink cinco">
-                    <Link to="/sedes">Sedes</Link>
+                    <Link to="/sucursales">Sedes</Link>
                 </li>
                 <li className="FooterLink seis">
                     <Link to="/PreguntasFrecuentesPrincipal">Preguntas Frecuentes</Link>
                 </li>
                 <li className="FooterLink siete">
-                    <Link to="/testimonios">Testimoniales</Link>
+                    <Link to="/#">Testimoniales</Link>
                 </li>
                 <li className="FooterLink ocho">
-                    <Link to="/blog">Blog</Link>
+                    <Link to="/#">Blog</Link>
                 </li>
                 <li className="FooterLink nueve">
                     <Link to="/service">Service</Link>
                 </li>
                 <li className="FooterLink diez">
-                    <Link to="/librodequejas">Libro de quejas</Link>
+                    <Link to="/#">Libro de quejas</Link>
                 </li>
             </ul>
         </div>

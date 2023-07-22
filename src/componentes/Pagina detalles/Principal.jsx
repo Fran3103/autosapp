@@ -5,6 +5,7 @@ import VentadeAuto from './VentadeAuto'
 import ContactoPrincipal from './ContactoPrincipal'
 import SedesContenedor from './SedesContenedor'
 
+
 const Principal = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const Principal = () => {
         <VentadeAuto/> 
         <ContactoPrincipal/>
         <SedesContenedor/>
+        
     </div>
   )
 }

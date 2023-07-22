@@ -1,9 +1,11 @@
 import React from 'react'
 import { useEffect, useState } from 'react';
-import datosSede from "../datosjson/dataSedes";
-import SedesCards from './SedesCards';
+import datosSede from "../../datosjson/dataSedes";
+import GeneralVentana from './GeneralVentana';
 
-const SedesContenedor = () => {
+
+
+const VentanasGenerales = () => {
 
     const [Sedes, setSedes] = useState ([]);
 
@@ -20,7 +22,7 @@ useEffect (() => {
   return (
     <div>
 
-        {Sedes && <SedesCards  sedes={Sedes} />}
+        {Sedes && <GeneralVentana  sedes={Sedes} />}
          
 
 
@@ -28,4 +30,4 @@ useEffect (() => {
   )
 }
 
-export default SedesContenedor
+export default VentanasGenerales

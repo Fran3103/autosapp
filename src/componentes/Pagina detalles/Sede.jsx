@@ -1,7 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
+
+
 const Sede = ({sede}) => {
+
+
+
   return (
     <div className='contenedorSedes'>
         
@@ -21,7 +27,7 @@ const Sede = ({sede}) => {
                 </div>
                 <div className="btnSedes">
                     <Link>
-                        <button>
+                        <button >
                             Ver detalles
                         </button>
                     </Link>
@@ -29,6 +35,9 @@ const Sede = ({sede}) => {
             </div>
            
         </div>
+
+        
+      
     </div>
   )
 }
